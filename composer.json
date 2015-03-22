@@ -1,0 +1,35 @@
+{
+	"name": "tollyab/bbcodeT",
+	"type": "phpbb-extension",
+	"description": 
+	"Замена кнопок BBCode в привлекательной и настраиваемой панели инструментов. Это расширение также добавляет много новых и полезных пользовательских BBCodes предоставляя пользователям больше возможностей, чтобы настроить их сообщения, в том числе BBvideo (вставляет видео из десятков сайтов средств массовой информации). Пользовательские BBCodes могут быть организованы и сортируются в любом порядке и закреплены за конкретными групп пользователей (например, только модераторы и  администраторы).",
+	"homepage": "https://github.com/Tollyab/Tollyab-next-BBCode-Box",
+	"version": "0.0.1",
+	"keywords": ["phpbb", "extension", "bbcodes", "bbvideo"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Tollyab (Tollyab)",
+			"homepage": "http://sabeel.info",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Tollyab Next BBCode Box",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.2,<3.2.*@dev"
+		},
+		"version-check": {
+			"host": "tollyab.github.io",
+			"directory": "/version",
+			"filename": "bbcodeT.json"
+		}
+	}
+}
